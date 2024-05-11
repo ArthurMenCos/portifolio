@@ -1,0 +1,236 @@
+html{
+    background-color:#101A40;
+    color: #F5F5F5;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+#PP{
+    margin-left: 1%;
+    padding: 1%;
+    background-color: #101A40;
+    justify-content: center;
+    font-family: "Instrument Sans", sans-serif;
+    font-size: 5vmin;
+    font-weight: 800;
+    position: absolute;
+}
+
+#corpo{
+    margin: 1%;
+    background-color: #F5F5F5;
+}
+
+#espc{
+    height: 12vw;
+}
+
+#foto{
+    width: 20vw;
+    height: 20vw;
+    border: 0.8vmax solid #2F3A70;
+    border-radius: 100%;
+    background-color: #2F3A70;
+    contain: strict;
+    justify-self: center;
+}
+
+#secreto{
+    padding: 2%;
+}
+
+#link{
+    text-decoration: none;
+    color: black;
+    font-size: 2.5vw;
+    font-family: "Instrument Sans", sans-serif;
+    
+}
+
+#nome{
+    text-decoration: none;
+    color: black;
+    font-size: 2.5vw;
+    font-family: "Instrument Sans", sans-serif;
+}
+
+
+.sub{
+    padding: 1%;
+    padding-left: 2%;
+    font-size: 3vw;
+    font-family: "Instrument Sans", sans-serif;
+    color: #101A40;
+    font-weight: 800;
+}
+
+.txtB{
+    margin-top: 1%;
+    margin-bottom: 1%;
+    background-color: #2F3A70;
+    padding: 2%;
+    font-size: 1.85vw;
+    font-family: "Instrument Sans", sans-serif;
+}
+
+
+#cards{
+    margin-top: 1%;
+    margin-bottom: 1%;
+    background-color: #101A40;
+    width: 100%;
+    height: 40%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    font-size: 1.5vmax;
+    font-family: "Instrument Sans", sans-serif;
+}
+.card{
+    background-color: #F5F5F5;
+    width: 20vw;
+    height: 30%;
+    text-align: center;
+    font-size: 1.5vw;
+    align-items: center;
+    justify-content: center;
+    padding: 3%;
+    margin: 2%;
+    border-left: 1.4vw solid #D9D9D9;
+    border-top: 1.4vw solid #D9D9D9;
+    border-right: 1.4vw solid #D9D9D9;
+    border-top-left-radius: 2em;
+    border-top-right-radius: 2em;
+    color: #000000;
+}
+
+.imgcard{
+    margin-bottom: 8%;
+}
+
+#atual{
+    color: #292929;
+    font-weight: 800;
+}
+
+#almejado{
+    color: #2a419c;
+    font-weight: 800;
+}
+
+table{
+    justify-content: center;
+    border-collapse: collapse;
+    width: 100%;
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-size: 1.6vw;
+    font-weight: 300;
+    color: #292929;
+    background-color: #D9D9D9;
+}
+
+.nivelA{
+    background-color: #292929;
+    color: #F5F5F5;
+}
+
+.nivelD{
+    background-color: #2a419c;
+    color: #F5F5F5;
+}
+
+td{
+    border: 0.25vmax solid #292929;
+    padding: 2%;
+}
+
+#projetos{
+    margin-top: 1%;
+    margin-bottom: 1%;
+    background-color: #292929;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.projeto{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.projdesc{
+    background-color: #292929;
+    padding: 2%;
+    font-size: 1.65vw;
+    font-family: "Instrument Sans", sans-serif;
+}
+
+.lnkproj{
+    text-decoration: none;
+    color: #F5F5F5;
+}
+
+#contatos{
+    background-color: #101A40;
+}
+
+#botoes{
+    margin-top: 1%;
+    padding-top: 2%;
+    padding-bottom: 1%;
+    background-color: #101A40;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.botao{
+    width: 10vw;
+    height: vw;
+    background-color: #F5F5F5;
+    border-top-left-radius: 0.5em;
+    border-top-right-radius: 0.5em;
+    margin-left: 2%;
+    margin-right: 2%;
+    padding: 0.7%;
+    font-family: "Instrument Sans", sans-serif;
+    font-size: 1.7vw;
+    font-weight: 500;
+    text-align: center;
+}
+
+.CRS{
+    font-family: "Instrument Sans", sans-serif;
+    text-decoration: none;
+    color: #292929;
+}
+
+#email{
+    font-family: "Instrument Sans", sans-serif;
+    font-size: 1.4vw;
+    font-weight: 500;
+}
+
+footer{
+    padding: 1%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #D9D9D9;
+    font-size: 1.4vw;
+    font-family: "Instrument Sans", sans-serif;
+    color: #292929;
+}
+
+#ftrimg{
+    width: 7vw;
+}
